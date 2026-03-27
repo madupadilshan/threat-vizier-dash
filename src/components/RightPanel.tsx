@@ -68,7 +68,7 @@ export default function RightPanel() {
   }, []);
 
   return (
-    <div className="fixed top-24 right-6 z-40 w-80 space-y-4 max-h-[calc(100vh-120px)] overflow-y-auto cyber-scrollbar">
+    <div className="space-y-4">
       {/* Severity Alerts */}
       <div className="glass-panel p-4">
         <div className="flex items-center gap-2 text-sm font-mono text-primary mb-3">
