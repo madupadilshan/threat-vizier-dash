@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState, useCallback } from "react";
-import Globe, { GlobeInstance } from "react-globe.gl";
+import Globe from "react-globe.gl";
 
 interface ArcData {
   startLat: number;
