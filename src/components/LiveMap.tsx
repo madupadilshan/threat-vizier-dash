@@ -22,7 +22,7 @@ const INITIAL_ARCS: ArcData[] = [
 ];
 
 export default function LiveMap() {
-  const globeRef = useRef<GlobeInstance | undefined>(undefined);
+  const globeRef = useRef<any>(undefined);
   const containerRef = useRef<HTMLDivElement>(null);
   const [arcs, setArcs] = useState<ArcData[]>(INITIAL_ARCS);
   const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
