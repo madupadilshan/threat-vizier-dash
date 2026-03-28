@@ -1,3 +1,3 @@
-# Welcome to your Lovable project
+# Threat Vizier Dashboard
 
-TODO: Document your project here
+Security dashboard built with React, TypeScript, and Vite.
